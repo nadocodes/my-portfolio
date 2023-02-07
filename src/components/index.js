@@ -5,6 +5,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Button from './Button';
 import Skills from './Skills';
+import SkipLanding from './SkipLanding';
 
 export {
     Navbar,
@@ -14,4 +15,5 @@ export {
     Contact,
     Button,
     Skills,
+    SkipLanding
 };

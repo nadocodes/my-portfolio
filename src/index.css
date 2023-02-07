@@ -21,12 +21,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #f2f2f8 0.89%,
+    #9994f7 17.23%,
+    #7e7aca 42.04%,
+    #7c75e7 55.12%,
+    #7872e7 71.54%,
+    #6C63FF 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,16 +34,13 @@
   text-fill-color: transparent;
 }
 
-.bg-blue-gradient {
+.bg-glass-gradient {
   background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
-  );
+    180deg, 
+    rgba(255, 255, 255, 0) 3.65%, 
+    rgba(0, 0, 0, 0.13) 99.98%, 
+    rgba(110, 102, 255, 0.31) 99.99%
+    );
 }
 
 .bg-black-gradient {
@@ -72,7 +69,7 @@
   );
 }
 
-.bg-discount-gradient {
+.bg-hero-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
 
@@ -137,4 +134,9 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
 }
