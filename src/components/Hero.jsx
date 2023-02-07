@@ -4,9 +4,9 @@ import SkipLanding from './SkipLanding';
 
 const Hero = () => (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 sm:my-[75px] md:my-16`}>
 
-      <div className='flex flex-row justify-between items-center w-full'>
+      <div className='flex flex-row justify-between items-center w-full xs:text-center md:text-start'>
         <h1 className='flex-1 font-almarai font-bold md:text-[120px] text-[50px] text-secondary ss:leading-[100px] leading-[55px]'>
           <span className='text-white ss:text-[100px]'>Nader Antar</span>
           <br/> {' '}
@@ -19,7 +19,7 @@ const Hero = () => (
         </div>
 
       </div>
-      <div className="ss:flex hidden m-auto">
+      <div className="ss:flex hidden mx-auto my-16">
           <SkipLanding />
         </div>
 
